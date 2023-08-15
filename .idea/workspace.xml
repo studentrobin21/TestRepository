@@ -17,6 +17,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Golang" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,8 +49,9 @@
     "WebServerToolWindowFactoryState": "false",
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/Robin",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "E:/VScode/codes/GOcode/BookSystem",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
