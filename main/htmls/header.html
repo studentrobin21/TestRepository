@@ -1,0 +1,52 @@
+{{define "header.html"}}
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: green;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        #header-pic{
+            padding: 5px 5px 5px 14px;
+        }
+        .header-img{
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<ul>
+    <li><a class="" href="#">主页</a></li>
+    <li><a href="#">查找</a></li>
+    <li class="col-lg-6">
+
+    </li>
+    <li><a href="#" id="header-pic"><img class="header-img" alt="" src="../static/pics/kenan.png"></a></li>
+</ul>
+
+</body>
+</html>
+{{end}}
